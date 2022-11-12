@@ -26,6 +26,12 @@ then
     npm -v
 
     echo "Node Js install done !"
+    
+    echo -ne '#######################'
+    echo "pm2 install start "
+    sudo npm i pm2 -g
+    echo "Node Js install done !"
+    echo -ne '#######################'
 
     sudo npm i pm2 -g
 #     echo -ne '#######################   (100%)\r'
