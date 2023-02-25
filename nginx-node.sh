@@ -4,6 +4,7 @@ echo "Start Your Install ....."
 
 if [ "$EUID" == 0 ]
 then
+    sudo apt update
     sudo apt install nginx -y
 
 #     echo -ne '#####                     (33%)\r'
